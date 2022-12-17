@@ -1,0 +1,3 @@
+services:
+  character.repository.inMemoryHeroRepository:
+    class: Character\Infrastructure\Persistence\InMemory\Repository\InMemoryHeroRepository

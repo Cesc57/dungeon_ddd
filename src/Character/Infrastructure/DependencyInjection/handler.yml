@@ -1,0 +1,5 @@
+services:
+  character.query.hero.getHeroesHandler:
+    class: Character\Application\Query\Hero\GetHeroesHandler
+    arguments:
+      - '@character.repository.inMemoryHeroRepository'

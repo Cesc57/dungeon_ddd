@@ -1,6 +1,6 @@
 <?php
 
-namespace Character\Domain\Model;
+namespace Character\Domain\Model\Hero;
 
 use Character\Domain\Id;
 
