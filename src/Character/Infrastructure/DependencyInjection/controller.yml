@@ -1,0 +1,4 @@
+services:
+  api.controller.characters.getCharacters:
+    class: Character\Infrastructure\Controller\Character\GetCharactersController
+    public: true

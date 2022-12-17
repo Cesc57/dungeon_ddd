@@ -1,0 +1,4 @@
+api.getCharacter:
+  path: /characters
+  controller: 'api.controller.characters.getCharacters'
+  methods: [GET]
